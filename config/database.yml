@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_turbo_dev
+  username: clustox
+  password: hussam
+  host: localhost
+  pool: 10
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_turbo_test
+  host: localhost
+  username: clustox
+  password: hussam
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_turbo_production
+  host: localhost
+  username: clustox
+  password: hussam
+  pool: 5
