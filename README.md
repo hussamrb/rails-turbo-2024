@@ -1,2 +1,2 @@
-# rails-turbo-2024
-air bnb clone 2024
+rails-turbo-2024
+practice for rails turbo
